@@ -5,12 +5,11 @@ import qrcode
 from io import BytesIO
 from datetime import datetime
 
-from telethon import TelegramClient, Button
+from telethon import TelegramClient, Button, events
 from telethon.sessions import StringSession
 from telethon.errors import SessionPasswordNeededError
 
 from config import API_ID, API_HASH, BOT_TOKEN
-
 
 # -------------------------------------------------
 # Logging
